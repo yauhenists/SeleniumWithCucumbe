@@ -1,0 +1,24 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 10.633 s <<< FAILURE! - in TestSuite
+runScenario(runner.TestRunner)  Time elapsed: 6.748 s  <<< FAILURE!
+org.openqa.selenium.SessionNotCreatedException: 
+Could not start a new session. Response code 500. Message: session not created: This version of ChromeDriver only supports Chrome version 114
+Current browser version is 125.0.6422.114 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
+Build info: version: '4.0.0-beta-2', revision: '4ec0cfc112'
+System info: host: 'ASUS14X', ip: '192.168.100.18', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.3'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, newSession {desiredCapabilities=Capabilities {browserName: chrome}}]
+Capabilities {}
+
+runScenario(runner.TestRunner)  Time elapsed: 1.492 s  <<< FAILURE!
+org.openqa.selenium.SessionNotCreatedException: 
+Could not start a new session. Response code 500. Message: session not created: This version of ChromeDriver only supports Chrome version 114
+Current browser version is 125.0.6422.114 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
+Build info: version: '4.0.0-beta-2', revision: '4ec0cfc112'
+System info: host: 'ASUS14X', ip: '192.168.100.18', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.3'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, newSession {desiredCapabilities=Capabilities {browserName: chrome}}]
+Capabilities {}
+

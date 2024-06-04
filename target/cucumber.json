@@ -1,0 +1,366 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2024-06-04T07:22:07.180Z",
+        "before": [
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: session not created: This version of ChromeDriver only supports Chrome version 114\nCurrent browser version is 125.0.6422.114 with binary path C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe\nBuild info: version: \u00274.0.0-beta-2\u0027, revision: \u00274ec0cfc112\u0027\nSystem info: host: \u0027ASUS14X\u0027, ip: \u0027192.168.100.18\u0027, os.name: \u0027Windows 11\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002721.0.3\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [null, newSession {desiredCapabilities\u003dCapabilities {browserName: chrome}}]\nCapabilities {}\r\n\tat org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:126)\r\n\tat org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:84)\r\n\tat org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:62)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:159)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:153)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:128)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:620)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:252)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.\u003cinit\u003e(RemoteWebDriver.java:174)\r\n\tat org.openqa.selenium.chromium.ChromiumDriver.\u003cinit\u003e(ChromiumDriver.java:82)\r\n\tat org.openqa.selenium.chrome.ChromeDriver.\u003cinit\u003e(ChromeDriver.java:99)\r\n\tat org.openqa.selenium.chrome.ChromeDriver.\u003cinit\u003e(ChromeDriver.java:86)\r\n\tat org.openqa.selenium.chrome.ChromeDriver.\u003cinit\u003e(ChromeDriver.java:75)\r\n\tat steps.Hook.InitializeTest(Hook.java:38)\r\n",
+              "duration": 6610213600,
+              "status": "failed"
+            },
+            "match": {
+              "location": "steps.Hook.InitializeTest(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Login with correct username and password",
+        "description": "",
+        "id": "loginfeature;login-with-correct-username-and-password",
+        "after": [
+          {
+            "result": {
+              "error_message": "java.lang.NullPointerException: Cannot invoke \"org.openqa.selenium.WebDriver.quit()\" because \"Base.BaseUtil.Driver\" is null\r\n\tat steps.Hook.TearDownTest(Hook.java:49)\r\n",
+              "duration": 1135200,
+              "status": "failed"
+            },
+            "match": {
+              "location": "steps.Hook.TearDownTest(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 999400,
+              "status": "skipped"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "steps.Hook.BeforeEveryStep(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "line": 5,
+            "name": "I navigate to the login page",
+            "match": {
+              "location": "steps.LoginStep.iNavigateToTheLoginPage()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "steps.Hook.AfterEveryStep(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 510900,
+              "status": "skipped"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 1003200,
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "steps.Hook.BeforeEveryStep(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "line": 6,
+            "name": "I enter the following for Login",
+            "match": {
+              "location": "steps.LoginStep.iEnterTheFollowingForLogin(java.util.List\u003csteps.LoginStep$User\u003e)"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "steps.Hook.AfterEveryStep(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "rows": [
+              {
+                "cells": [
+                  "username",
+                  "password"
+                ]
+              },
+              {
+                "cells": [
+                  "admin",
+                  "adminpassword"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1010200,
+              "status": "skipped"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "steps.Hook.BeforeEveryStep(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "line": 9,
+            "name": "I click login button",
+            "match": {
+              "location": "steps.LoginStep.iClickLoginButton()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "steps.Hook.AfterEveryStep(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "steps.Hook.BeforeEveryStep(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "line": 10,
+            "name": "I should see the userform page",
+            "match": {
+              "location": "steps.LoginStep.iShouldSeeTheUserformPage()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "steps.Hook.AfterEveryStep(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-06-04T07:22:13.821Z",
+        "before": [
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: session not created: This version of ChromeDriver only supports Chrome version 114\nCurrent browser version is 125.0.6422.114 with binary path C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe\nBuild info: version: \u00274.0.0-beta-2\u0027, revision: \u00274ec0cfc112\u0027\nSystem info: host: \u0027ASUS14X\u0027, ip: \u0027192.168.100.18\u0027, os.name: \u0027Windows 11\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002721.0.3\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [null, newSession {desiredCapabilities\u003dCapabilities {browserName: chrome}}]\nCapabilities {}\r\n\tat org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:126)\r\n\tat org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:84)\r\n\tat org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:62)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:159)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:153)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:128)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:620)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:252)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.\u003cinit\u003e(RemoteWebDriver.java:174)\r\n\tat org.openqa.selenium.chromium.ChromiumDriver.\u003cinit\u003e(ChromiumDriver.java:82)\r\n\tat org.openqa.selenium.chrome.ChromeDriver.\u003cinit\u003e(ChromeDriver.java:99)\r\n\tat org.openqa.selenium.chrome.ChromeDriver.\u003cinit\u003e(ChromeDriver.java:86)\r\n\tat org.openqa.selenium.chrome.ChromeDriver.\u003cinit\u003e(ChromeDriver.java:75)\r\n\tat steps.Hook.InitializeTest(Hook.java:38)\r\n",
+              "duration": 1471383900,
+              "status": "failed"
+            },
+            "match": {
+              "location": "steps.Hook.InitializeTest(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 12,
+        "name": "Login with correct username and password to fail",
+        "description": "",
+        "id": "loginfeature;login-with-correct-username-and-password-to-fail",
+        "after": [
+          {
+            "result": {
+              "error_message": "java.lang.NullPointerException: Cannot invoke \"org.openqa.selenium.WebDriver.quit()\" because \"Base.BaseUtil.Driver\" is null\r\n\tat steps.Hook.TearDownTest(Hook.java:49)\r\n",
+              "duration": 937400,
+              "status": "failed"
+            },
+            "match": {
+              "location": "steps.Hook.TearDownTest(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 997900,
+              "status": "skipped"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 999200,
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "steps.Hook.BeforeEveryStep(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "line": 13,
+            "name": "I navigate to the login page",
+            "match": {
+              "location": "steps.LoginStep.iNavigateToTheLoginPage()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "steps.Hook.AfterEveryStep(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "steps.Hook.BeforeEveryStep(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "line": 14,
+            "name": "I enter the following for Login",
+            "match": {
+              "location": "steps.LoginStep.iEnterTheFollowingForLogin(java.util.List\u003csteps.LoginStep$User\u003e)"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 1003400,
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "steps.Hook.AfterEveryStep(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "rows": [
+              {
+                "cells": [
+                  "username",
+                  "password"
+                ]
+              },
+              {
+                "cells": [
+                  "admin",
+                  "adminpassword"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "steps.Hook.BeforeEveryStep(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "line": 17,
+            "name": "I click login button",
+            "match": {
+              "location": "steps.LoginStep.iClickLoginButton()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "steps.Hook.AfterEveryStep(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "steps.Hook.BeforeEveryStep(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "line": 18,
+            "name": "I should see the userform page wrongly",
+            "match": {
+              "location": "steps.LoginStep.iShouldSeeTheUserformPageWrongly()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "steps.Hook.AfterEveryStep(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "LoginFeature",
+    "description": "  This feature deals with the login functionality of the applications",
+    "id": "loginfeature",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/Login.feature",
+    "tags": []
+  }
+]
